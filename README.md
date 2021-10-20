@@ -1,4 +1,4 @@
-Description
+Description:
 This is a webapp developed for a cultural resturant located in Bahir Dar, Ethiopia as a class project.
 
 Features
