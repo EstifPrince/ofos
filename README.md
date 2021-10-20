@@ -2,7 +2,7 @@ Description: This is a webapp developed for a cultural resturant located in Bahi
 
 Features
 
-Client registration
-Add/Remove new food on the system (Admin)
-Register clients location
-Menu reader for visually Impaired person
+- Client registration
+- Add/Remove new food on the system (Admin)
+- Register clients location
+- Menu reader for visually Impaired person
