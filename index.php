@@ -4,9 +4,6 @@ include 'includes/wallet.php';
 
 	if((isset($_SESSION['customer_sid'])) and ($_SESSION['customer_sid'] == session_id()))
 	{
-    echo $_SESSION['customer_sid'];
-    echo session_id();
-
 		?>
 <!DOCTYPE html>
 <html lang="en">
@@ -88,11 +85,11 @@ include 'includes/wallet.php';
 
 <body>
   <!-- Start Page Loading -->
-  <!-- <div id="loader-wrapper">
+  <div id="loader-wrapper">
     <div id="loader"></div>
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
-  </div> -->
+  </div>
   <!-- End Page Loading -->
 
   <!-- //////////////////////////////////////////////////////////////////////////// -->

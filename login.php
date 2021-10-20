@@ -10,18 +10,18 @@ if(isset($_SESSION['admin_sid']) ||
 }
 else{
 
-  require_once 'glogin/vendor/autoload.php';
-    $clientID= '740549885134-gti5tvadkjsp3br5mt75c884uipf7jhl.apps.googleusercontent.com';
-    $clientSecret = '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';
-    $redirectUrl = 'http://localhost/ofos2/glogin/login.php';
+  // require_once 'glogin/vendor/autoload.php';
+  //   $clientID= '740549885134-gti5tvadkjsp3br5mt75c884uipf7jhl.apps.googleusercontent.com';
+  //   $clientSecret = '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';
+  //   $redirectUrl = 'http://localhost/ofos2/glogin/login.php';
 
-    // Creating client request to google
-    $client = new Google_Client();
-    $client->setClientId($clientID);
-    $client->setClientSecret($clientSecret);
-    $client->setRedirectUri($redirectUrl);
-    $client->addScope('profile');
-    $client->addScope('email');
+  //   // Creating client request to google
+  //   $client = new Google_Client();
+  //   $client->setClientId($clientID);
+  //   $client->setClientSecret($clientSecret);
+  //   $client->setRedirectUri($redirectUrl);
+  //   $client->addScope('profile');
+  //   $client->addScope('email');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +72,7 @@ else{
       <form method="post" action="routers/router.php" class="login-form" id="form">
         <div class="row">
           <div class="input-field col s12 center">
-            <p class="center login-form-text">Login for Food Ordering System</p>
+            <p class="center login-form-text">ዥማር ባህላዊ ምግብ ቤት</p>
           </div>
         </div>
         <div class="row margin">
